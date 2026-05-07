@@ -1,5 +1,6 @@
 # AlpacaTGbot
-.. just an API test trading Autobot with localhost Web interface run on userland 
+
+.. just a terminal API test trading bot with localhost Web interface run on the smartphone via userland 
 
 
 
