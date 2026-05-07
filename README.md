@@ -1,5 +1,5 @@
 # AlpacaTGbot
-.. just an API test trading Autobot
+.. just an API test trading Autobot with localhost Web interface run on userland 
 
 
 
