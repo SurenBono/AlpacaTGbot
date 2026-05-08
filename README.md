@@ -16,8 +16,8 @@ Requirements:-
 - luck & timing
   
  ![](pic/localhost.jpg)
- ![](pic/lh2.jpg)
- ![](pic/lh3.jpg)
+ ![](pic/lc2.jpg)
+ ![](pic/lc3.jpg)
 
 /home/yourusername/alpaca-bot/
 1.  venv/             # Virtual environment
