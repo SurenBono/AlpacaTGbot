@@ -93,7 +93,14 @@ ______________________________________
 4.  bot.log           # debug
 5.  requirements.txt  # Optional
 
-.. you must remodify your parameters and even rewrite the whole code until it's profitable..use A.I to recode.. it's just a SpotBot.. it is not a leveraged trade ..the timeframe is to small to actually be profitable ... Userland will continue to run on the background until you stop it or no internet or the battery down 
+.. you must remodify your parameters and even rewrite the whole code until it's profitable..use A.I to recode.. it's just a SpotBot.. it is not a leveraged trade ..the timeframe is to small to actually be profitable ... Userland will continue to run on the background until you stop it or no internet or the battery down ..
+
+Quick Check Code & Parameters:-
+
+https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
+
+https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/emabot.py
+
 
 Other Command :-
 rm bot.py 
@@ -102,18 +109,26 @@ nano utbot.py
 ls
 clear
 
-```console
-wget https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
-```
-or 
-```console
-curl -O https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
-```
-`
+
 Quick Check Code & Parameters:-
 
 https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
 
 https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/emabot.py
+
+or use wget/curl from terminal download
+.env
+```console
+wget https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
+```
+emabot.py
+```console
+wget https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/emabot.py
+```
+curl
+```console
+curl -O https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
+```
+
 
 -suren 8/5/26-
