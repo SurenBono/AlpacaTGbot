@@ -40,20 +40,20 @@ Fill parameters & API keys
 ```console
 nano .env 
 ```
-# Save with  Ctrl+X - y - Enter
+Save with  Ctrl+X - y - Enter
 
 Create bot
 ```console
 nano botname.py
 ```
-# Save with  Ctrl+X - y - Enter
+Save with  Ctrl+X - y - Enter
 
 Run
 ```console
 python3 bot.py
 ```
-# Confirm with 'y' or Cancel with Ctrl+C
-# Open browser example http://192.168.0.170:5000/
+Confirm with 'y' or Cancel with Ctrl+C
+Open example http://192.168.0.170:5000/
 ______________________________________
  ![](pic/boot.jpg)
  ![](pic/localhost.jpg)
