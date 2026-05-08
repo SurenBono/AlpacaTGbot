@@ -14,8 +14,10 @@ Requirements:-
 - Alpaca Trading API ( Demo Paper Trade )
 - time & patience
 - luck & timing
-- 
+  
  ![](pic/localhost.jpg)
+ ![](pic/lh2.jpg)
+ ![](pic/lh3.jpg)
 
 /home/yourusername/alpaca-bot/
 1.  venv/             # Virtual environment
