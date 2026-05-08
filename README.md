@@ -22,3 +22,6 @@ Requirements:-
 3.  bot.py            # THE BOT 
 4.  bot.log           # debug
 5.  requirements.txt  # Optional
+
+
+-suren 8/5/26-
