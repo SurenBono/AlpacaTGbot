@@ -12,6 +12,7 @@ Requirements:-
 - Deepseek,Cloude..etc
 - Dependency.. ask A.i
 - Alpaca Trading API ( Demo Paper Trade )
+- https://alpaca.markets/
 - time & patience
 - luck & timing
 
@@ -91,6 +92,15 @@ ______________________________________
 3.  bot.py            # THE BOT 
 4.  bot.log           # debug
 5.  requirements.txt  # Optional
+
+.. you must remodify your parameters and even rewrite the whole code until it's profitable..use A.I to recode.. it's just a SpotBot.. it is not a leveraged trade ..the timeframe is to small to actually be profitable ... Userland will continue to run on the background until you stop it or no internet or the battery down 
+
+Other Command :-
+rm bot.py 
+cp utbot.py utbot.py.bak
+nano utbot.py
+ls
+clear
 
 
 -suren 8/5/26-
