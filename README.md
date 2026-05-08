@@ -14,7 +14,20 @@ Requirements:-
 - Alpaca Trading API ( Demo Paper Trade )
 - time & patience
 - luck & timing
-  
+
+  ______________________________________
+```console
+sudo apt-get update && apt-get upgrade -y
+```
+Create Dir
+```console
+mkdir bot
+```
+
+
+
+
+  ______________________________________
  ![](pic/localhost.jpg)
  ![](pic/lc2.jpg)
  ![](pic/lc3.jpg)
