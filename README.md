@@ -20,6 +20,30 @@ Get Ubuntu latest updates
 ```console
 sudo apt-get update && apt-get upgrade -y
 ```
+```console
+sudo apt install -y python3 python3-pip 
+```
+```console
+sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
+```
+```console
+sudo apt install -y git curl wget
+```
+```console
+pip install --upgrade pip
+```
+```console
+pip install wheel setuptools
+```
+```console
+pip install alpaca-trade-api==2.0.2
+pip install python-dotenv==0.19.0
+pip install requests==2.28.1
+pip install websocket-client==10.4
+pip install pandas==1.5.2
+pip install numpy==1.24.1
+pip install flask==2.2.2
+```
 Dependency 1
 
 ```console
