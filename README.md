@@ -16,19 +16,46 @@ Requirements:-
 - luck & timing
 
   ______________________________________
-Gettl updates
+Get Ubuntu latest updates
 ```console
 sudo apt-get update && apt-get upgrade -y
 ```
-Create Dir
+Dependency 1
+
 ```console
-mkdir bot
+pip install alpaca-py pandas numpy python-dotenv flask requests
 ```
 
+Dependencies 2
+```console
+pip install -r requirements.txt
+```
+Create Dir
+```console
+mkdir bot && cd ~/bot
+python3 -m venv venv
+source venv/bin/activate
+```
+Fill parameters & API keys 
+```console
+nano .env 
+```
+# Save with  Ctrl+X - y - Enter
 
+Create bot
+```console
+nano botname.py
+```
+# Save with  Ctrl+X - y - Enter
 
-
-  ______________________________________
+Run
+```console
+python3 bot.py
+```
+# Confirm with 'y' or Cancel with Ctrl+C
+# Open browser example http://192.168.0.170:5000/
+______________________________________
+ ![](pic/boot.jpg)
  ![](pic/localhost.jpg)
  ![](pic/lc2.jpg)
  ![](pic/lc3.jpg)
