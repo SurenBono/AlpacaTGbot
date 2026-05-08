@@ -1,4 +1,4 @@
-# AlpacaTGbot
+# AlpacaSpotBot
 
 .. just a terminal API test trading bot with localhost Web interface run on the smartphone via userland with DeepSeek.
 
