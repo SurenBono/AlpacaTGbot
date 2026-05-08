@@ -102,5 +102,17 @@ nano utbot.py
 ls
 clear
 
+```console
+wget https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
+```
+or 
+```console
+curl -O https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
+```
+```console
+curl -O https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/emabot.py
+```
+
+https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
 
 -suren 8/5/26-
