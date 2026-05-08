@@ -4,7 +4,7 @@
 
 Requirements:-
 
-- 64bit Smartphone
+- 64bit Android Smartphone
 - internet
 - userland from playstore
 - python3
