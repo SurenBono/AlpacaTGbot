@@ -53,8 +53,9 @@ Run
 python3 bot.py
 ```
 Confirm with 'y' or Cancel with Ctrl+C
-Open example http://192.168.0.170:5000/
+Open browser via terminal post 
 ______________________________________
+ ![](pic/dir.jpg)
  ![](pic/boot.jpg)
  ![](pic/localhost.jpg)
  ![](pic/lc2.jpg)
