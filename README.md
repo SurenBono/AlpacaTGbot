@@ -109,10 +109,11 @@ or
 ```console
 curl -O https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
 ```
-```console
-curl -O https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/emabot.py
-```
+`
+Quick Check Code & Parameters:-
 
 https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
+
+https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/emabot.py
 
 -suren 8/5/26-
