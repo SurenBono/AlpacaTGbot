@@ -13,6 +13,9 @@ Requirements:-
 - Dependency.. ask A.i
 - Alpaca Trading API ( Demo Paper Trade )
 - https://alpaca.markets/
+- Signup for Trading API do KYC ..etc
+- Get demo paper trading amount for test
+- dont tick or combo with real account 
 - time & patience
 - luck & timing
 
@@ -59,7 +62,9 @@ Create Dir
 ```console
 mkdir bot && cd ~/bot
 python3 -m venv venv
-source venv/bin/activate
+```
+```console
+wget https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
 ```
 Fill parameters & API keys 
 ```console
@@ -67,15 +72,21 @@ nano .env
 ```
 Save with  Ctrl+X - y - Enter
 
-Create bot
+emabot.py
 ```console
-nano botname.py
+wget https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/emabot.py
 ```
-Save with  Ctrl+X - y - Enter
+
+Check bot
+```console
+nano emabot.py
+```
+Exit with  Ctrl+X - Enter
 
 Run
 ```console
-python3 bot.py
+source venv/bin/activate
+python3 emabot.py
 ```
 Confirm with 'y' or Cancel with Ctrl+C
 Open browser via terminal post 
@@ -116,15 +127,7 @@ https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
 
 https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/emabot.py
 
-or use wget/curl from terminal download
-.env
-```console
-wget https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
-```
-emabot.py
-```console
-wget https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/emabot.py
-```
+
 curl
 ```console
 curl -O https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env
