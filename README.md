@@ -20,7 +20,7 @@ Requirements:-
 - luck & timing
 
 ________________________________________
-Simple Install , Update Key, Parameters & Run
+Fast Install , Update Key, Parameters & Run
 ```console
 sudo apt install curl
 ```
@@ -29,6 +29,7 @@ curl -o- -k
 https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/init.sh | bash
 ```
 ________________________________________
+Other ways...
 Get Ubuntu latest updates
 ```console
 sudo apt-get update && apt-get upgrade -y
