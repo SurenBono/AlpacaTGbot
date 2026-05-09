@@ -20,7 +20,8 @@ Requirements:-
 - luck & timing
 
 ________________________________________
-Fast Install , Update Key, Parameters & Run
+Fast Install
+& Update Key + Parameters.. Run
 ```console
 sudo apt install curl
 ```
