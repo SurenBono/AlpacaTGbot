@@ -19,7 +19,15 @@ Requirements:-
 - time & patience
 - luck & timing
 
-  ______________________________________
+________________________________________
+```console
+sudo apt install curl
+```
+```console
+curl -o- -k
+https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/init.sh | bash
+```
+________________________________________
 Get Ubuntu latest updates
 ```console
 sudo apt-get update && apt-get upgrade -y
