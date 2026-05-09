@@ -20,6 +20,7 @@ Requirements:-
 - luck & timing
 
 ________________________________________
+Simple Install , Update Key, Parameters & Run
 ```console
 sudo apt install curl
 ```
