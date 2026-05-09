@@ -12,4 +12,4 @@ wget https://raw.githubusercontent.com/SurenBono/AlpacaTGbot/main/.env -O ~/bot/
 nano .env 
 # Paste your credentials, then Ctrl+X → Y → Enter to save
 # Step 6 - Run the bot
-python3 alpaca_bot.py
+python3 emabot.py
