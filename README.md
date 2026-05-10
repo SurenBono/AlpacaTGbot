@@ -20,8 +20,9 @@ Requirements:-
 - luck & timing
 
   UPDATES:
+  10.5.26
   - Manual Buy/Sell & Bot Combo
-  - Overcome Spread 
+  - Overcome Spread before a Sell
 
 ________________________________________
 Fast Install
