@@ -19,6 +19,10 @@ Requirements:-
 - time & patience
 - luck & timing
 
+  UPDATES:
+  - Manual Buy/Sell & Bot Combo
+  - Overcome Spread 
+
 ________________________________________
 Fast Install
 & Update Key + Parameters.. Run
