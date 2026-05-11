@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ~/utbot
 source venv/bin/activate
 python3 manbot.py
