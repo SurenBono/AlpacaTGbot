@@ -1,3 +1,6 @@
+https://quantnomad.com/implementing-ut-bot-strategy-in-python-with-vectorbt/
+
+
 userland@localhost:~/bg$ nano bgbt.py
 userland@localhost:~/bg$ python3 bgbt.py
 ======================================================================
