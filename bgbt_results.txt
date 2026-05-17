@@ -1,0 +1,176 @@
+userland@localhost:~/bg$ nano bgbt.py
+userland@localhost:~/bg$ python3 bgbt.py
+======================================================================
+UT BOT FUTURES BACKTESTER - VERBOSE MODE
+======================================================================
+Time started: 2026-05-17 11:19:48
+Python version: 3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]
+pandas-ta-classic version: 0.5.44
+======================================================================
+
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+STARTING VERBOSE BACKTEST
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+
+======================================================================
+STARTING BACKTEST
+======================================================================
+
+[CONFIGURATION]
+  Symbol: BTCUSDT
+  Interval: 4h
+  Date range: 2024-09-01 to 2025-05-17
+  Leverage: 10x
+  Initial capital: $10,000
+  Taker fee: 0.06%
+
+[1/4] STARTING DATA DOWNLOAD
+      Symbol: BTCUSDT
+      Interval: 4h
+      Start: 2024-09-01 00:00:00
+      End: 2025-05-17 00:00:00
+----------------------------------------------------------------------
+      Mapped interval: 4H
+      Start timestamp: 1725148800000
+      End timestamp: 1747440000000
+
+[DOWNLOAD PROGRESS]
+
+  Batch #1:
+    Requesting from 2024-09-01
+    to 2024-11-30
+    URL: https://api.bitget.com/api/v2/mix/market/history-candles
+    Params: {'symbol': 'BTCUSDT', 'productType': 'usdt-futures', 'granularity': '4H', 'startTime': '1725148800000', 'endTime': '1732924800000', 'limit': '200'}
+    Response time: 0.44 seconds
+    HTTP Status: 200
+    API Code: 00000
+    API Message: success
+    ✅ Received 200 candles
+    First candle timestamp: 2024-10-27 16:00:00
+    Last candle timestamp: 2024-11-29 20:00:00
+    Price range: 67817.1 - 97516.2
+    Next start timestamp: 2024-11-29 20:00:00.001000
+    Waiting 0.1s before next request...
+
+  Batch #2:
+    Requesting from 2024-11-29
+    to 2025-02-27
+    URL: https://api.bitget.com/api/v2/mix/market/history-candles
+    Params: {'symbol': 'BTCUSDT', 'productType': 'usdt-futures', 'granularity': '4H', 'startTime': '1732910400001', 'endTime': '1740686400001', 'limit': '200'}
+    Response time: 0.38 seconds
+    HTTP Status: 200
+    API Code: 00000
+    API Message: success
+    ✅ Received 200 candles
+    First candle timestamp: 2025-01-25 12:00:00
+    Last candle timestamp: 2025-02-27 16:00:00
+    Price range: 104852.3 - 84074.3
+    Next start timestamp: 2025-02-27 16:00:00.001000
+    Waiting 0.1s before next request...
+
+  Batch #3:
+    Requesting from 2025-02-27
+    to 2025-05-17
+    URL: https://api.bitget.com/api/v2/mix/market/history-candles
+    Params: {'symbol': 'BTCUSDT', 'productType': 'usdt-futures', 'granularity': '4H', 'startTime': '1740672000001', 'endTime': '1747440000000', 'limit': '200'}
+    Response time: 0.39 seconds
+    HTTP Status: 200
+    API Code: 00000
+    API Message: success
+    ✅ Received 200 candles
+    First candle timestamp: 2025-04-13 16:00:00
+    Last candle timestamp: 2025-05-16 20:00:00
+    Price range: 83950.0 - 103412.1
+    Next start timestamp: 2025-05-16 20:00:00.001000
+    Waiting 0.1s before next request...
+
+  Batch #4:
+    Requesting from 2025-05-16
+    to 2025-05-17
+    URL: https://api.bitget.com/api/v2/mix/market/history-candles
+    Params: {'symbol': 'BTCUSDT', 'productType': 'usdt-futures', 'granularity': '4H', 'startTime': '1747425600001', 'endTime': '1747440000000', 'limit': '200'}
+    Response time: 0.25 seconds
+    HTTP Status: 200
+    API Code: 00000
+    API Message: success
+    ✅ Received 1 candles
+    First candle timestamp: 2025-05-16 20:00:00
+    Last candle timestamp: 2025-05-16 20:00:00
+    Price range: 103412.1 - 103412.1
+    Last batch received, breaking
+
+[DOWNLOAD SUMMARY]
+  Total batches: 4
+  Total candles: 601
+  Memory usage: 28.17 KB (approx)
+
+[2/4] PROCESSING RAW DATA
+  Raw DataFrame shape: (601, 6)
+  Sorted by datetime
+  Final DataFrame shape: (601, 6)
+  Date range: 2024-10-27 16:00:00 to 2025-05-16 20:00:00
+  Missing values: 0
+
+[3/4] CALCULATING UT BOT SIGNALS
+  Sensitivity: 1
+  ATR Period: 10
+  Input data shape: (601, 6)
+----------------------------------------------------------------------
+  Calculating ATR...
+    ATR range: 586.36 - 2613.02
+  Dropped 10 rows with NaN values
+  Data shape after dropna: (591, 8)
+  Calculating ATRTrailingStop (this may take a moment)...
+    Progress: 500/591 rows processed (84.6%)
+  ATRTrailingStop range: 67956.54 - 104515.65
+  Calculating EMA signals...
+
+[SIGNAL SUMMARY]
+  Long entries: 30
+  Short entries: 30
+  Long exits: 30
+  Short exits: 30
+  Total signals: 60
+
+[4/4] RUNNING PORTFOLIO BACKTEST
+----------------------------------------------------------------------
+  Creating vectorbt portfolio...
+  ✅ Portfolio created successfully
+  Calculating statistics...
+  ✅ Statistics calculated
+
+======================================================================
+📈 FINAL BACKTEST RESULTS
+======================================================================
+Start Value              : 10000.0000
+End Value                : 10708.7711
+Total Return [%]         : 7.0877
+Benchmark Return [%]     : 44.7183
+Sharpe Ratio             : 0
+Sortino Ratio            : 0
+Calmar Ratio             : 0
+Max Drawdown [%]         : 24.4683
+Max Drawdown Duration    : 349.0000
+Total Trades             : 60.0000
+Total Closed Trades      : 59.0000
+Win Rate [%]             : 25.4237
+Best Trade [%]           : 25.5094
+Worst Trade [%]          : -7.1121
+Avg Winning Trade [%]    : 5.1986
+Avg Losing Trade [%]     : -1.4973
+Profit Factor            : 1.0931
+Expectancy               : 11.8568
+
+======================================================================
+Backtest completed at: 2026-05-17 11:20:37
+======================================================================
+
+📊 Generating equity curve plot...
+  ✅ Plot created
+  📈 Plot displayed (may open in new window)
+
+⏱️  Total execution time: 52.43 seconds (0.87 minutes)
+
+✅ Backtest completed successfully!
+
+======================================================================
